@@ -1,0 +1,117 @@
+/*!
+* reveal.js 4.0.2
+* https://revealjs.com
+* MIT licensed
+*
+* Copyright (C) 2020 Hakim El Hattab, https://hakim.se
+*/
+.reveal .r-stretch, .reveal .stretch {
+    max-width: none;
+    max-height: none
+}
+
+
+
+.reveal.slide section {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.reveal.linear section {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+
+.reveal.cube .slides {
+    perspective: 1300px
+}
+
+.reveal.cube .slides section {
+    padding: 30px;
+    /*min-height: 700px;*/
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-sizing: border-box;
+    transform-style: preserve-3d
+}
+
+
+.reveal.page .slides section.past {
+    z-index: 12
+}
+
+.reveal.page .slides section:not(.stack):before {
+    content: '';
+    position: absolute;
+    display: block;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    background: rgba(0, 0, 0, .1);
+    /*transform: translateZ(-20px)*/
+}
+
+.reveal.page .slides section:not(.stack):after {
+    content: '';
+    /*position: absolute;*/
+    /*display: block;*/
+    /*width: 90%;*/
+    /*height: 30px;*/
+    left: 5%;
+    bottom: 0;
+    background: 0 0;
+    z-index: 1;
+    border-radius: 4px;
+    /*box-shadow: 0 95px 25px rgba(0, 0, 0, .2);*/
+    /*-webkit-transform: translateZ(-90px) rotateX(65deg)*/
+}
+
+.reveal.page .slides > section.stack {
+    padding: 0;
+    background: 0 0
+}
+
+.reveal.page .slides > section.past {
+    transform-origin: 0 0;
+    /*transform: translate3d(-40%, 0, 0) rotateY(-80deg)*/
+}
+
+.reveal .pause-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 100;
+    transition: all 1s ease
+}
+
+.reveal .pause-overlay .resume-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: #ccc;
+    border-radius: 2px;
+    padding: 6px 14px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    background: 0 0;
+    cursor: pointer
+}
+
+.reveal .pause-overlay .resume-button:hover {
+    color: #fff;
+    border-color: #fff
+}
+
+.reveal.paused .pause-overlay {
+    visibility: visible;
+    opacity: 1
+}
+
+
