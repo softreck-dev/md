@@ -1,8 +1,8 @@
 # md
 Markdown Support for Documentation based on git deployment
 
-+ [Softreck.Dev Foundation Code of Conduct - coc.softreck.dev](https://coc.softreck.dev)
-+ [Softreck.Dev Foundation Code of Conduct - on github](https://softreck.github.io/coc/)
++ [Markdown rendering for Softreck.Dev  - md.softreck.dev](https://md.softreck.dev)
++ [Markdown rendering for Softreck.Dev  - on github](https://softreck.github.io/md/)
 
 # How to use?
 just copy [index.html](index.html), and he take  README.md and render it in your project
