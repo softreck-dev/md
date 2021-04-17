@@ -14,4 +14,4 @@ just copy [index.html](index.html), and he take  README.md and render it in your
 
 ---  
 
-+ [edit source](https://github.com/softreck/coc/edit/main/README.md),  [README.md](https://github.com/softreck/coc/blob/main/README.md)
++ [edit source](https://github.com/softreck/md/edit/main/README.md),  [README.md](https://github.com/softreck/md/blob/main/README.md)
