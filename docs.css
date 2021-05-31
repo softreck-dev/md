@@ -18,11 +18,21 @@ p,
 li,
 a {
     /*font-family: 'Dosis', sans-serif;*/
+
+}
+
+body .reveal h1,
+body .reveal h2,
+body .reveal h3,
+body .reveal h4,
+body .reveal h5,
+body .reveal h6{
+    margin-top: 20px;
 }
 
 body div div.slides {
-    /*width: 100%;*/
-    /*height: 100%;*/
+    width: 100%;
+    height: 100%;
     /*left: 50px;*/
     /*top: 50px;*/
     /*bottom: 0;*/
