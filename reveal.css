@@ -24,7 +24,7 @@
 
 
 .reveal.cube .slides {
-    perspective: 1300px
+    /*perspective: 1300px*/
 }
 
 .reveal.cube .slides section {
@@ -115,6 +115,6 @@
 }
 
 .reveal .slides section {
-    display: inline;
-    color: red;
+    display: inline!important;
+    /*color: red;*/
 }
