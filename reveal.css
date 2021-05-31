@@ -114,4 +114,6 @@
     opacity: 1
 }
 
-
+.reveal.page .slides section {
+    display: inline;
+}
