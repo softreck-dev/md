@@ -114,7 +114,7 @@
     opacity: 1
 }
 
-.reveal.page .slides section {
+.reveal .slides section {
     display: inline;
     color: red;
 }
