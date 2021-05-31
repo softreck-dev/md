@@ -21,13 +21,19 @@ a {
 
 }
 
-body .reveal h1,
-body .reveal h2,
 body .reveal h3,
 body .reveal h4,
 body .reveal h5,
-body .reveal h6{
-    margin-top: 20px;
+body .reveal h6
+{
+    margin-top: 15px;
+}
+
+
+body .reveal h1,
+body .reveal h2
+{
+    margin-top: 30px;
 }
 
 body div.slides {
