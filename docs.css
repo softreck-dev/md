@@ -1030,3 +1030,10 @@ pre code {
     margin: 0 .2em .25em -1.6em;
     vertical-align: middle;
 }
+
+button.navigate-left,
+button.navigate-right,
+button.navigate-up,
+button.navigate-down {
+    display:none;
+}
